@@ -425,7 +425,7 @@ td {
 th,
 td {
   border-bottom: 3px solid #ddd;
-  border-right: 1px solid #eee;
+  border-right: 1px solid #f8c3cd;
 }
 th {
   padding-bottom: 10px;
@@ -499,7 +499,7 @@ code {
   padding: 2px 4px;
   word-wrap: break-word;
   color: #006284;
-  background: #eee;
+  background: #f8c3cd;
   border-radius: 3px;
   font-size: 13px;
 }
@@ -745,7 +745,7 @@ pre .javascript .function {
   position: relative;
   padding: 15px;
   margin-bottom: 20px;
-  border: 1px solid #eee;
+  border: 1px solid #f8c3cd;
   border-left-width: 5px;
   border-radius: 3px;
 }
@@ -976,7 +976,7 @@ pre .javascript .function {
 .pagination {
   margin: 120px 0 40px;
   text-align: center;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #f8c3cd;
 }
 .page-number-basic,
 .pagination .prev,
@@ -1002,7 +1002,7 @@ pre .javascript .function {
 .pagination .next,
 .pagination .page-number {
   border-bottom: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #f8c3cd;
   transition-property: border-color;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
@@ -1037,7 +1037,7 @@ pre .javascript .function {
   .pagination .page-number {
     margin-bottom: 10px;
     border-top: 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #f8c3cd;
     padding: 0 10px;
   }
   .pagination .prev:hover,
@@ -1372,7 +1372,7 @@ pre .javascript .function {
   margin-left: 20px;
 }
 .posts-collapse .collection-title small {
-  color: #bbb;
+  color: #00aa90;
   margin-left: 5px;
 }
 .posts-collapse .collection-title::before {
@@ -1384,7 +1384,7 @@ pre .javascript .function {
   margin-top: -4px;
   width: 8px;
   height: 8px;
-  background: #bbb;
+  background: #00aa90;
   border-radius: 50%;
 }
 .posts-collapse .post {
@@ -1406,7 +1406,7 @@ pre .javascript .function {
   width: 6px;
   height: 6px;
   margin-left: -4px;
-  background: #bbb;
+  background: #00aa90;
   border-radius: 50%;
   border: 1px solid #fff;
   transition-duration: 0.2s;
@@ -1557,7 +1557,7 @@ pre .javascript .function {
   display: table;
   margin-top: 15px;
   width: 100%;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #f8c3cd;
 }
 .post-nav-divider {
   display: table-cell;
@@ -1671,7 +1671,7 @@ pre .javascript .function {
   border-bottom-color: #006284;
 }
 .sidebar a:hover {
-  color: #eee;
+  color: #f8c3cd;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .sidebar {
@@ -1737,7 +1737,7 @@ pre .javascript .function {
   padding: 2px;
   max-width: 120px;
   height: auto;
-  border: 1px solid #eee;
+  border: 1px solid #f8c3cd;
 }
 .site-author-name {
   margin: 0;
@@ -1760,7 +1760,7 @@ pre .javascript .function {
 .site-state-item {
   display: inline-block;
   padding: 0 15px;
-  border-left: 1px solid #eee;
+  border-left: 1px solid #f8c3cd;
 }
 .site-state-item:first-child {
   border-left: none;
@@ -1819,7 +1819,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffcf4f;
+  background: #c3ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2396,7 +2396,7 @@ pre .javascript .function {
   margin: 5px 10px;
 }
 .category-all-page .category-list-count {
-  color: #bbb;
+  color: #00aa90;
 }
 .category-all-page .category-list-count:before {
   display: inline;
@@ -2811,7 +2811,7 @@ pre .javascript .function {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #bbb;
+  background-color: #00aa90;
 }
 .btn-bar {
   background-color: #fff;
@@ -2926,7 +2926,7 @@ pre .javascript .function {
 }
 .links-of-author-item a:hover {
   border-radius: 4px;
-  background: #eee;
+  background: #f8c3cd;
 }
 .links-of-author-item .fa {
   margin-right: 2px;
