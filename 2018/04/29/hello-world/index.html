@@ -88,7 +88,7 @@
 <meta property="og:description" content="方便使用直接翻译了一下。直接引用了一些来自Hexo官方文档的东西。包含一些Markdown语法的笔记。这份笔记主要内容为博文的写作方法。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://spher1calfowl.github.io/images/avatar.gif">
-<meta property="og:updated_time" content="2018-04-30T09:15:05.563Z">
+<meta property="og:updated_time" content="2018-04-30T09:15:53.217Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World-由自动生成文件补充而来的写作笔记">
 <meta name="twitter:description" content="方便使用直接翻译了一下。直接引用了一些来自Hexo官方文档的东西。包含一些Markdown语法的笔记。这份笔记主要内容为博文的写作方法。">
@@ -310,7 +310,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-04-30T17:15:05+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-04-30T17:15:53+08:00">
                 2018-04-30
               </time>
             
@@ -475,7 +475,41 @@
 <h5 id="Page"><a href="#Page" class="headerlink" title="Page"></a>Page</h5><p>类似About（关于我）页面。<br>参照：<a href="https://spher1calfowl.github.io/about/">关于我</a></p>
 <h5 id="Draft"><a href="#Draft" class="headerlink" title="Draft"></a>Draft</h5><p>不会公开的部分。<br>使用<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo publish [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure></p>
 <p>可以将它公开（移入Post这一类别）。<br>在执行时加上 –draft 参数，或是把 render_drafts 参数设为 true 可以预览草稿。</p>
-<h4 id="Hexo生成文件名的设定"><a href="#Hexo生成文件名的设定" class="headerlink" title="Hexo生成文件名的设定"></a>Hexo生成文件名的设定</h4><p>可以靠改变new_post_name来变更默认的文件名。<br>|变量    |描述|<br>|-|-|<br>|:title    |标题（小写，空格将会被替换为短杠）|<br>|:year    |建立的年份，比如， 2015|<br>|:month    |建立的月份（有前导零），比如， 04|<br>|:i_month    |建立的月份（无前导零），比如， 4|<br>|:day    |建立的日期（有前导零），比如， 07|<br>|:i_day    |建立的日期（无前导零），比如， 7|</p>
+<h4 id="Hexo生成文件名的设定"><a href="#Hexo生成文件名的设定" class="headerlink" title="Hexo生成文件名的设定"></a>Hexo生成文件名的设定</h4><p>可以靠改变new_post_name来变更默认的文件名。</p>
+<table>
+<thead>
+<tr>
+<th>变量</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>:title</td>
+<td>标题（小写，空格将会被替换为短杠）</td>
+</tr>
+<tr>
+<td>:year</td>
+<td>建立的年份，比如， 2015</td>
+</tr>
+<tr>
+<td>:month</td>
+<td>建立的月份（有前导零），比如， 04</td>
+</tr>
+<tr>
+<td>:i_month</td>
+<td>建立的月份（无前导零），比如， 4</td>
+</tr>
+<tr>
+<td>:day</td>
+<td>建立的日期（有前导零），比如， 07</td>
+</tr>
+<tr>
+<td>:i_day</td>
+<td>建立的日期（无前导零），比如， 7</td>
+</tr>
+</tbody>
+</table>
 <h4 id="模板的使用"><a href="#模板的使用" class="headerlink" title="模板的使用"></a>模板的使用</h4><p>在新建文章时，Hexo 会根据 scaffolds 文件夹内相对应的文件来建立文件。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new photo <span class="string">"My Gallery"</span></span><br></pre></td></tr></table></figure></p>
 <p>此处的photo就是作为模板的文件。</p>
 <table>
