@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="VaccumFarm真空农场">
 <meta property="og:description" content="方便使用直接翻译了一下。直接引用了一些来自Hexo官方文档的东西。包含一些Markdown语法的笔记。这份笔记主要内容为博文的写作方法。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-30T07:53:08.604Z">
+<meta property="og:updated_time" content="2018-04-30T08:29:33.540Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World-由自动生成文件补充而来的写作笔记">
 <meta name="twitter:description" content="方便使用直接翻译了一下。直接引用了一些来自Hexo官方文档的东西。包含一些Markdown语法的笔记。这份笔记主要内容为博文的写作方法。">
@@ -308,7 +308,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-04-30T15:53:08+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-04-30T16:29:33+08:00">
                 2018-04-30
               </time>
             
@@ -358,7 +358,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  291字
+                  411字
                 </span>
               
 
@@ -374,7 +374,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1分钟
+                  2分钟
                 </span>
               
             </div>
@@ -397,10 +397,10 @@
       
         <p>方便使用直接翻译了一下。<br>直接引用了一些来自Hexo官方文档的东西。<br>包含一些Markdown语法的笔记。<br>这份笔记主要内容为博文的写作方法。</p>
 <a id="more"></a>
-<h2 id="Hexo的文档"><a href="#Hexo的文档" class="headerlink" title="Hexo的文档"></a>Hexo的文档</h2><h3 id="创建一篇新的博文"><a href="#创建一篇新的博文" class="headerlink" title="创建一篇新的博文"></a>创建一篇新的博文</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br><span class="line">\\这个命令可以用来创建一篇新文章。</span><br></pre></td></tr></table></figure>
+<h2 id="Hexo的文档"><a href="#Hexo的文档" class="headerlink" title="Hexo的文档"></a>Hexo的文档</h2><h3 id="创建一篇新的博文"><a href="#创建一篇新的博文" class="headerlink" title="创建一篇新的博文"></a>创建一篇新的博文</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br><span class="line">\\这个命令可以用来创建一篇新文章。[layout]用来定义布局，&lt;title&gt;用来定义标题。</span><br></pre></td></tr></table></figure>
 <h4 id="新文章格式的设定"><a href="#新文章格式的设定" class="headerlink" title="新文章格式的设定"></a>新文章格式的设定</h4><blockquote><p>Front-matter 是文件最上方以 — 分隔的区域，用于指定个别文件的变量。</p>
 <footer><strong>Hexo官方文档</strong><cite><a href="https://hexo.io/zh-cn/docs/front-matter.html" target="_blank" rel="noopener">Front-matter</a></cite></footer></blockquote>
+<p>参数    描述    默认值<br>layout    布局<br>title    标题<br>date    建立日期    文件建立日期<br>updated    更新日期    文件更新日期<br>comments    开启文章的评论功能    true<br>tags    标签（不适用于分页）<br>categories    分类（不适用于分页）<br>permalink    覆盖文章网址</p>
 <h4 id="Hexo的布局"><a href="#Hexo的布局" class="headerlink" title="Hexo的布局"></a>Hexo的布局</h4><p>Hexo 有三种默认布局：post（博文）、page（页面） 和 draft（草稿），<br>它们分别对应不同的路径，page是直接储存在source下的。post和draft对应不同的子文件夹。<br>自定义的其他布局和 post 储存在同一文件夹。</p>
 <h4 id="Hexo生成文件名的设定"><a href="#Hexo生成文件名的设定" class="headerlink" title="Hexo生成文件名的设定"></a>Hexo生成文件名的设定</h4><p>可以靠改变new_post_name来变更默认的文件名。</p>
 <h3 id="运行服务"><a href="#运行服务" class="headerlink" title="运行服务"></a>运行服务</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
@@ -409,7 +409,8 @@
 <p>更多信息: <a href="https://hexo.io/zh-cn/docs/generating.html" target="_blank" rel="noopener">生成</a></p>
 <h3 id="部署网站"><a href="#部署网站" class="headerlink" title="部署网站"></a>部署网站</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>更多信息: <a href="https://hexo.io/zh-cn/docs/deployment.html" target="_blank" rel="noopener">部署</a></p>
-<h2 id="Markdown语法笔记"><a href="#Markdown语法笔记" class="headerlink" title="Markdown语法笔记"></a>Markdown语法笔记</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[文本](https://yourwebsite.com)</span><br><span class="line">\\这个是Markdown下超链接的格式。</span><br></pre></td></tr></table></figure>
+<h2 id="Markdown语法笔记"><a href="#Markdown语法笔记" class="headerlink" title="Markdown语法笔记"></a>Markdown语法笔记</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[文本](https://yourwebsite.com)</span><br><span class="line">\\这个是Markdown下超链接的格式。</span><br><span class="line">*斜体* 或 _斜体_ </span><br><span class="line">**粗体**</span><br><span class="line">***加粗斜体***</span><br><span class="line">~~删除线~~</span><br></pre></td></tr></table></figure>
+<p>例子：<br><a href="https://spher1calfowl.github.io/">真空农场</a><br><em>斜体</em> 或 _斜体_<br><strong>粗体</strong><br><strong><em>加粗斜体</em></strong><br><del>删除线</del></p>
 
       
     </div>
@@ -639,7 +640,7 @@
     
       <span class="post-meta-item-text">网站总字数&#58;</span>
     
-    <span title="网站总字数">291</span>
+    <span title="网站总字数">411</span>
   
 </div>
 
