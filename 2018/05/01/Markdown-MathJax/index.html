@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Markdown," />
+  <meta name="keywords" content="Markdown,MathJax," />
 
 
 
@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="参考资料【教程】 论如何在Markdown使用MathJax书写数学公式 -boshi">
-<meta name="keywords" content="Markdown">
+<meta name="description" content="例子二次方程$ax^2+bx+c=0$的两根为$\frac {-b \pm \sqrt {b^2-4ac}}{2a}$ 1二次方程$ax^2+bx+c=0$的两根为$\frac &amp;#123;-b \pm \sqrt &amp;#123;b^2-4ac&amp;#125;&amp;#125;&amp;#123;2a&amp;#125;$  $$\int_{0}^{+\infty}\frac{1}{x} = ln(x)+C$$ 123$$\">
+<meta name="keywords" content="Markdown,MathJax">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Markdown下使用MathJax的方法">
 <meta property="og:url" content="https://spher1calfowl.github.io/2018/05/01/Markdown-MathJax/index.html">
 <meta property="og:site_name" content="VaccumFarm真空农场">
-<meta property="og:description" content="参考资料【教程】 论如何在Markdown使用MathJax书写数学公式 -boshi">
+<meta property="og:description" content="例子二次方程$ax^2+bx+c=0$的两根为$\frac {-b \pm \sqrt {b^2-4ac}}{2a}$ 1二次方程$ax^2+bx+c=0$的两根为$\frac &amp;#123;-b \pm \sqrt &amp;#123;b^2-4ac&amp;#125;&amp;#125;&amp;#123;2a&amp;#125;$  $$\int_{0}^{+\infty}\frac{1}{x} = ln(x)+C$$ 123$$\">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-30T17:57:26.175Z">
+<meta property="og:updated_time" content="2018-04-30T18:12:01.954Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Markdown下使用MathJax的方法">
-<meta name="twitter:description" content="参考资料【教程】 论如何在Markdown使用MathJax书写数学公式 -boshi">
+<meta name="twitter:description" content="例子二次方程$ax^2+bx+c=0$的两根为$\frac {-b \pm \sqrt {b^2-4ac}}{2a}$ 1二次方程$ax^2+bx+c=0$的两根为$\frac &amp;#123;-b \pm \sqrt &amp;#123;b^2-4ac&amp;#125;&amp;#125;&amp;#123;2a&amp;#125;$  $$\int_{0}^{+\infty}\frac{1}{x} = ln(x)+C$$ 123$$\">
 
 
 
@@ -338,7 +338,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-05-01T01:57:26+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-05-01T02:12:01+08:00">
                 2018-05-01
               </time>
             
@@ -388,7 +388,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  20字
+                  364字
                 </span>
               
 
@@ -404,7 +404,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1分钟
+                  2分钟
                 </span>
               
             </div>
@@ -425,7 +425,81 @@
       
 
       
-        <h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="http://www.k-xzy.xyz/archives/1346" target="_blank" rel="noopener">【教程】 论如何在Markdown使用MathJax书写数学公式 -boshi</a></p>
+        <h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p>二次方程$ax^2+bx+c=0$的两根为$\frac {-b \pm \sqrt {b^2-4ac}}{2a}$</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">二次方程<span class="variable">$ax</span>^2+bx+c=0$的两根为$\frac &#123;-b \pm \sqrt &#123;b^2-4ac&#125;&#125;&#123;2a&#125;$</span><br></pre></td></tr></table></figure>
+<hr>
+<p>$$<br>\int_{0}^{+\infty}\frac{1}{x} = ln(x)+C<br>$$</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">\int_&#123;0&#125;^&#123;+\infty&#125;\frac&#123;1&#125;&#123;x&#125; = ln(x)+C</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+<hr>
+<p>$$<br>  \begin{matrix}<br>   1 &amp; 2 &amp; 3 \\<br>   4 &amp; 5 &amp; 6 \\<br>   7 &amp; 8 &amp; 9<br>  \end{matrix} \tag{1}<br>$$</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">  \begin&#123;matrix&#125;</span><br><span class="line">   1 &amp; 2 &amp; 3 \\\</span><br><span class="line">   4 &amp; 5 &amp; 6 \\\</span><br><span class="line">   7 &amp; 8 &amp; 9</span><br><span class="line">  \end&#123;matrix&#125; \tag&#123;1&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+<hr>
+<p>$$<br>  \begin{bmatrix}<br>   1 &amp; 2 &amp; 3 \\<br>   4 &amp; 5 &amp; 6 \\<br>   7 &amp; 8 &amp; 9<br>  \end{bmatrix} \tag{2}<br>$$</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">  \begin&#123;bmatrix&#125;</span><br><span class="line">   1 &amp; 2 &amp; 3 \\\</span><br><span class="line">   4 &amp; 5 &amp; 6 \\\</span><br><span class="line">   7 &amp; 8 &amp; 9</span><br><span class="line">  \end&#123;bmatrix&#125; \tag&#123;2&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+<hr>
+<p>$$<br>\left[<br>    \begin{array}{cc|c}<br>      1 &amp; 2 &amp; 3 \\<br>      4 &amp; 5 &amp; 6<br>    \end{array}<br>\right] \tag{3}<br>$$</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$$ </span><br><span class="line">\left[</span><br><span class="line">    \begin&#123;array&#125;&#123;cc|c&#125;</span><br><span class="line">      1 &amp; 2 &amp; 3 \\\</span><br><span class="line">      4 &amp; 5 &amp; 6</span><br><span class="line">    \end&#123;array&#125;</span><br><span class="line">\right] \tag&#123;3&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+<hr>
+<p>\begin{equation}<br>    \begin{cases}<br>        CaO+H_2O==Ca(OH)_2 \\<br>        Ca(OH)_2+CO_2==CaCO_3\downarrow+H_2O \\<br>        CaCO_3+CO_2+H_2O==Ca(HCO_3)_2<br>  \end{cases}<br>\end{equation}</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">\begin&#123;equation&#125;</span><br><span class="line">    \begin&#123;cases&#125;</span><br><span class="line">        CaO+H_2O==Ca(OH)_2 \\\</span><br><span class="line">        Ca(OH)_2+CO_2==CaCO_3\downarrow+H_2O \\\</span><br><span class="line">        CaCO_3+CO_2+H_2O==Ca(HCO_3)_2</span><br><span class="line">  \end&#123;cases&#125;</span><br><span class="line">\end&#123;equation&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="编码（未完成）"><a href="#编码（未完成）" class="headerlink" title="编码（未完成）"></a>编码（未完成）</h2><table>
+<thead>
+<tr>
+<th>编码</th>
+<th>说明</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>\frac</td>
+<td>分子分母之间的横线</td>
+<td>\frac{1}{x}</td>
+</tr>
+<tr>
+<td>_</td>
+<td>用下划线来表示下标</td>
+<td>x_i</td>
+</tr>
+<tr>
+<td>^</td>
+<td>次方运算符来表示上标</td>
+<td>x^i</td>
+</tr>
+<tr>
+<td>\sum</td>
+<td>累加器，上下标用上面介绍的编码来书写</td>
+<td>\sum</td>
+</tr>
+<tr>
+<td>\alpha</td>
+<td>希腊字母 alpha</td>
+<td>y=\alpha x</td>
+</tr>
+<tr>
+<td>\int</td>
+<td>积分符号</td>
+<td>\int_0^10</td>
+</tr>
+<tr>
+<td>\textless</td>
+<td>小于号(大于号为\textgreater)</td>
+<td>12\textless13</td>
+</tr>
+<tr>
+<td>\sqrt</td>
+<td>开根号</td>
+<td>\sqrt {b^2-4ac}</td>
+</tr>
+<tr>
+<td>\pm</td>
+<td>加减号</td>
+<td>b \pm a</td>
+</tr>
+</tbody>
+</table>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="http://www.k-xzy.xyz/archives/1346" target="_blank" rel="noopener">【教程】 论如何在Markdown使用MathJax书写数学公式 -boshi</a></p>
 
       
     </div>
@@ -462,6 +536,8 @@
         <div class="post-tags">
           
             <a href="/tags/Markdown/" <i class="fa fa-tag"></i> Markdown</a>
+          
+            <a href="/tags/MathJax/" <i class="fa fa-tag"></i> MathJax</a>
           
         </div>
       
@@ -590,7 +666,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -639,7 +715,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#参考资料"><span class="nav-number">1.</span> <span class="nav-text">参考资料</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#例子"><span class="nav-number">1.</span> <span class="nav-text">例子</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#编码（未完成）"><span class="nav-number">2.</span> <span class="nav-text">编码（未完成）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考资料"><span class="nav-number">3.</span> <span class="nav-text">参考资料</span></a></li></ol></div>
             
 
           </div>
@@ -680,7 +756,7 @@
     
       <span class="post-meta-item-text">网站总字数&#58;</span>
     
-    <span title="网站总字数">3.1k</span>
+    <span title="网站总字数">3.4k</span>
   
 </div>
 
