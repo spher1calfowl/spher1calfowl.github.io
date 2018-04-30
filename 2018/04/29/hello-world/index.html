@@ -88,7 +88,7 @@
 <meta property="og:description" content="直接引用了一些来自Hexo官方文档的东西。包含一些Markdown语法的笔记。这份笔记主要内容为博文的写作方法。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://spher1calfowl.github.io/images/avatar.gif">
-<meta property="og:updated_time" content="2018-04-30T11:18:48.672Z">
+<meta property="og:updated_time" content="2018-04-30T16:21:06.053Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello World-由自动生成文件补充而来的写作笔记">
 <meta name="twitter:description" content="直接引用了一些来自Hexo官方文档的东西。包含一些Markdown语法的笔记。这份笔记主要内容为博文的写作方法。">
@@ -330,8 +330,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-04-30T19:18:48+08:00">
-                2018-04-30
+              <time title="更新于" itemprop="dateModified" datetime="2018-05-01T00:21:06+08:00">
+                2018-05-01
               </time>
             
           </span>
@@ -380,7 +380,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  949字
+                  948字
                 </span>
               
 
@@ -417,16 +417,16 @@
       
 
       
-        <blockquote><p>直接引用了一些来自Hexo官方文档的东西。<br>包含一些Markdown语法的笔记。<br>这份笔记主要内容为博文的写作方法。</p>
+        <blockquote><p>直接引用了一些来自<code>Hexo</code>官方文档的东西。<br>包含一些<code>Markdown</code>语法的笔记。<br>这份笔记主要内容为博文的写作方法。</p>
 </blockquote>
 <a id="more"></a>
 <h2 id="Hexo的文档"><a href="#Hexo的文档" class="headerlink" title="Hexo的文档"></a>Hexo的文档</h2><h3 id="创建一篇新的博文"><a href="#创建一篇新的博文" class="headerlink" title="创建一篇新的博文"></a>创建一篇新的博文</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br><span class="line">\\这个命令可以用来创建一篇新文章。[layout]用来定义布局，&lt;title&gt;用来定义标题。</span><br></pre></td></tr></table></figure>
-<h4 id="Hexo的布局"><a href="#Hexo的布局" class="headerlink" title="Hexo的布局"></a>Hexo的布局</h4><p>Hexo 有三种默认布局：post（博文）、page（页面） 和 draft（草稿），<br>它们分别对应不同的路径，page是直接储存在source下的。post和draft对应不同的子文件夹。<br>自定义的其他布局和 post 储存在同一文件夹。</p>
+<h4 id="Hexo的布局"><a href="#Hexo的布局" class="headerlink" title="Hexo的布局"></a>Hexo的布局</h4><p>Hexo 有三种默认布局：<code>post</code>（博文）、<code>page</code>（页面） 和 <code>draft</code>（草稿），<br>它们分别对应不同的路径，<code>page</code>是直接储存在<code>source</code>下的。<code>post</code>和<code>draft</code>对应不同的子文件夹。<br>自定义的其他布局和<code>post</code>储存在同一文件夹。</p>
 <h5 id="Post"><a href="#Post" class="headerlink" title="Post"></a>Post</h5><p>类似本页面。</p>
 <h5 id="Page"><a href="#Page" class="headerlink" title="Page"></a>Page</h5><p>类似About（关于我）页面。<br>参照：<a href="https://spher1calfowl.github.io/about/">关于我</a></p>
 <h5 id="Draft"><a href="#Draft" class="headerlink" title="Draft"></a>Draft</h5><p>不会公开的部分。<br>使用<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo publish [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure></p>
-<p>可以将它公开（移入Post这一类别）。<br>在执行时加上 –draft 参数，或是把 render_drafts 参数设为 true 可以预览草稿。</p>
-<h4 id="新文章格式的设定"><a href="#新文章格式的设定" class="headerlink" title="新文章格式的设定"></a>新文章格式的设定</h4><blockquote><p>Front-matter 是文件最上方以 — 分隔的区域，用于指定个别文件的变量。</p>
+<p>可以将它公开（移入Post这一类别）。<br>在执行时加上<code> –draft</code> 参数，或是把<code>render_drafts</code>参数设为<code>true</code> 可以预览草稿。</p>
+<h4 id="新文章格式的设定"><a href="#新文章格式的设定" class="headerlink" title="新文章格式的设定"></a>新文章格式的设定</h4><blockquote><p><code>Front-matter</code> 是文件最上方以 — 分隔的区域，用于指定个别文件的变量。</p>
 <footer><strong>Hexo官方文档</strong><cite><a href="https://hexo.io/zh-cn/docs/front-matter.html" target="_blank" rel="noopener">Front-matter</a></cite></footer></blockquote>
 <table>
 <thead>
@@ -496,7 +496,7 @@
 </tr>
 </tbody>
 </table>
-<h4 id="Hexo生成文件名的设定"><a href="#Hexo生成文件名的设定" class="headerlink" title="Hexo生成文件名的设定"></a>Hexo生成文件名的设定</h4><p>可以靠改变new_post_name来变更默认的文件名。</p>
+<h4 id="Hexo生成文件名的设定"><a href="#Hexo生成文件名的设定" class="headerlink" title="Hexo生成文件名的设定"></a>Hexo生成文件名的设定</h4><p>可以靠改变<code>new_post_name</code>来变更默认的文件名。</p>
 <table>
 <thead>
 <tr>
@@ -531,8 +531,8 @@
 </tr>
 </tbody>
 </table>
-<h4 id="模板的使用"><a href="#模板的使用" class="headerlink" title="模板的使用"></a>模板的使用</h4><p>在新建文章时，Hexo 会根据 scaffolds 文件夹内相对应的文件来建立文件。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new photo <span class="string">"My Gallery"</span></span><br></pre></td></tr></table></figure></p>
-<p>此处的photo就是作为模板的文件。</p>
+<h4 id="模板的使用"><a href="#模板的使用" class="headerlink" title="模板的使用"></a>模板的使用</h4><p>在新建文章时，Hexo 会根据<code>scaffolds</code>文件夹内相对应的文件来建立文件。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new photo <span class="string">"My Gallery"</span></span><br></pre></td></tr></table></figure></p>
+<p>此处的<code>photo</code>就是作为模板的文件。</p>
 <table>
 <thead>
 <tr>
@@ -556,7 +556,7 @@
 </tbody>
 </table>
 <h4 id="标签（插件）的使用"><a href="#标签（插件）的使用" class="headerlink" title="标签（插件）的使用"></a>标签（插件）的使用</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% blockquote [author[, <span class="built_in">source</span>]] [link] [source_link_title] %&#125;</span><br><span class="line">content</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
-<p>author=作者，source=来源，link=来源的链接，source_link_title=超链接的标题。</p>
+<p><code>author</code>=作者，<code>source</code>=来源，<code>link</code>=来源的链接，<code>source_link_title</code>=超链接的标题。</p>
 <h3 id="运行服务"><a href="#运行服务" class="headerlink" title="运行服务"></a>运行服务</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 <p>更多信息: <a href="https://hexo.io/zh-cn/docs/server.html" target="_blank" rel="noopener">服务器</a></p>
 <h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
