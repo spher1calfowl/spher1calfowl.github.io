@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Read-List]]></title>
+    <title><![CDATA[读书清单-读完的书-索引]]></title>
     <url>%2F2018%2F05%2F01%2FRead-List%2F</url>
     <content type="text"></content>
+      <categories>
+        <category>读书笔记</category>
+      </categories>
+      <tags>
+        <tag>读书</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[Markdown下使用MathJax的方法]]></title>
