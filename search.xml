@@ -8,9 +8,9 @@
         <category>博客管理笔记</category>
       </categories>
       <tags>
-        <tag>数学</tag>
         <tag>Markdown</tag>
         <tag>MathJax</tag>
+        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
@@ -78,8 +78,8 @@
         <category>博客管理笔记</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
         <tag>Markdown</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>
