@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Markdown下使用MathJax的方法]]></title>
+    <url>%2F2018%2F05%2F01%2FMarkdown-MathJax%2F</url>
+    <content type="text"><![CDATA[说明 参考【教程】 论如何在Markdown使用MathJax书写数学公式 -boshi写出来的。与原文不同这里给出了例子中编码的准确用法（不一定符合，因为是我推理出来的） 例子二次方程$ax^2+bx+c=0$的两根为$\frac {-b \pm \sqrt {b^2-4ac}}{2a}$ 1二次方程$ax^2+bx+c=0$的两根为$\frac &#123;-b \pm \sqrt &#123;b^2-4ac&#125;&#125;&#123;2a&#125;$ $$\int_{0}^{+\infty}\frac{1}{x} = ln(x)+C$$ 123$$\int_&#123;0&#125;^&#123;+\infty&#125;\frac&#123;1&#125;&#123;x&#125; = ln(x)+C$$ $$ \begin{matrix} 1 &amp; 2 &amp; 3 \\ 4 &amp; 5 &amp; 6 \\ 7 &amp; 8 &amp; 9 \end{matrix} \tag{1}$$ 1234567$$ \begin&#123;matrix&#125; 1 &amp; 2 &amp; 3 \\\ 4 &amp; 5 &amp; 6 \\\ 7 &amp; 8 &amp; 9 \end&#123;matrix&#125; \tag&#123;1&#125;$$ $$ \begin{bmatrix} 1 &amp; 2 &amp; 3 \\ 4 &amp; 5 &amp; 6 \\ 7 &amp; 8 &amp; 9 \end{bmatrix} \tag{2}$$ 1234567$$ \begin&#123;bmatrix&#125; 1 &amp; 2 &amp; 3 \\\ 4 &amp; 5 &amp; 6 \\\ 7 &amp; 8 &amp; 9 \end&#123;bmatrix&#125; \tag&#123;2&#125;$$ $$\left[ \begin{array}{cc|c} 1 &amp; 2 &amp; 3 \\ 4 &amp; 5 &amp; 6 \end{array}\right] \tag{3}$$ 12345678$$ \left[ \begin&#123;array&#125;&#123;cc|c&#125; 1 &amp; 2 &amp; 3 \\\ 4 &amp; 5 &amp; 6 \end&#123;array&#125;\right] \tag&#123;3&#125;$$ \begin{equation} \begin{cases} CaO+H_2O==Ca(OH)_2 \\ Ca(OH)_2+CO_2==CaCO_3\downarrow+H_2O \\ CaCO_3+CO_2+H_2O==Ca(HCO_3)_2 \end{cases}\end{equation} 1234567\begin&#123;equation&#125; \begin&#123;cases&#125; CaO+H_2O==Ca(OH)_2 \\\ Ca(OH)_2+CO_2==CaCO_3\downarrow+H_2O \\\ CaCO_3+CO_2+H_2O==Ca(HCO_3)_2 \end&#123;cases&#125;\end&#123;equation&#125; $$\uparrow$$123$$\uparrow$$ 编码 编码 说明 示例 \frac 分子分母之间的横线 \frac{1}{x} _ 用下划线来表示下标 x_i ^ 次方运算符来表示上标 x^i \sum 累加器，上下标用上面介绍的编码来书写 \sum \alpha 希腊字母 alpha y=\alpha x \int 积分符号 \int_0^10 \textless 小于号(大于号为\textgreater) 12\textless13 \sqrt 开根号 \sqrt {b^2-4ac} \pm 加减号 b \pm a \begin{matrix} 开始处理矩阵。记得用$$包裹。 见上方 \end{matrix} 结束处理矩阵。记得用$$包裹。 见上方 \tag{1} 式子的序号 见上方。此处的代码代表序号1。 \begin{bmatrix} 开始处理带框矩阵。 记得用$$包裹。[1] 见上方 \end{bmatrix} 结束处理带框矩阵。记得用$$包裹。 见上方 \left[ 处理左侧公式。 记得用$$包裹。 见上方 \begin{array} 开始处理数组。[2] 见上方 \end{array} 结束处理数组。 见上方 \right] 处理右侧公式。 见上方 \begin{equation} 开始方程式的处理。 见上方 \begin{cases} 开始容器（大括号）的处理。 见上方 \downarrow 插入一个向下的箭头（沉淀符号） 见上方 \uparrow 插入一个向上的箭头（气体符号） 见上方 \end{cases} 结束容器（大括号）的处理。 见上方 \end{equation} 结束方程式的处理。 见上方 [1]:注意换行时使用\\。数字之间使用 &amp; 切换。[2]:请使用{cc|c} 设定数组的格式。 参考资料【教程】 论如何在Markdown使用MathJax书写数学公式 -boshi如何在博客上手写复杂数学公式? （MathJax）]]></content>
+      <categories>
+        <category>博客管理笔记</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>MathJax</tag>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[关于搭OJ平台的工作报告]]></title>
+    <url>%2F2018%2F05%2F01%2FOJ-Making%2F</url>
+    <content type="text"><![CDATA[说明 只是个尝试而已。成功与否还不清楚。记录了整个平台的搭建过程（暂未完成）。 参考文件两周打造自己的Online Judge：LuoguLite #0 - 目录 #1 基础架构 #2 数据模型 #3 前端框架 #4 从控制器到前端 #5 前端上的 Routing &amp;&amp; 前后端数据传递 #6 数据的增改 #7 综合案例 阅读进度#0 读完 操作进度#0 未操作 建站笔记没操作能有什么笔记啊 可能会用到的技术栈： 服务器后端：php / Symfony3 / MySQL 网页前端：JavaScript / Node.js / Vue.js / Semantic UI]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>OJ平台</tag>
+        <tag>网页前端</tag>
+        <tag>服务器后端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[物理相关整理]]></title>
+    <url>%2F2018%2F04%2F30%2FPhysics-Links%2F</url>
+    <content type="text"><![CDATA[说明 这篇文章整合了一些收集到的物理相关文章。 个人的文章 Gerard ‘t Hooft-如何成为一名好的理论物理学家（新版） 注意：使用语言为英语。诺贝尔物理学奖得主Gerard ‘t Hooft先生编写的网页。强调了从网络获取知识。 如何成为一名好的理论物理学家（中文版） 翻译：马红孺 先生 校对&amp;排版：周旭 先生 知乎的问答高中学业类院系的课程介绍/教材索引]]></content>
+      <categories>
+        <category>整理</category>
+      </categories>
+      <tags>
+        <tag>物理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[林达华的数学书单]]></title>
+    <url>%2F2018%2F04%2F30%2FMath-Booklist-DahuaLin%2F</url>
+    <content type="text"><![CDATA[说明 原地址已经消失了，所以转载了过来。由我自己进行了一次排版。原地址: http://dahua.spaces.live.com/default.aspx 线性代数 (Linear Algebra)：我想国内的大学生都会学过这门课程，但是，未必每一位老师都能贯彻它的精要。这门学科对于Learning是必备的基础，对它的透彻掌握是必不可少的。我在科大一年级的时候就学习了这门课，后来到了香港后，又重新把线性代数读了一遍，所读的是 Introduction to Linear Algebra (3rd Ed.) by Gilbert Strang. 这本书是MIT的线性代数课使用的教材，也是被很多其它大学选用的经典教材。它的难度适中，讲解清晰，重要的是对许多核心的概念讨论得比较透彻。我个人觉得，学习线性代数，最重要的不是去熟练矩阵运算和解方程的方法——这些在实际工作中MATLAB可以代劳，关键的是要深入理解几个基础而又重要的概念：子空间 (Subspace)，正交 (Orthogonality)，特征值和特征向量 (Eigenvalues and eigenvectors)，和线性变换 (Linear transform)。从我的角度看来，一本线代教科书的质量，就在于它能否给这些根本概念以足够的重视，能否把它们的联系讲清楚。Strang的这本书在这方面是做得很好的。而且，这本书有个得天独厚的优势。书的作者长期在MIT讲授线性代数课(18.06)，课程的video在MIT的Open courseware网站上有提供。有时间的朋友可以一边看着名师授课的录像，一边对照课本学习或者复习。http://ocw.mit.edu/OcwWeb/Mathematics/18-06Spring-2005/CourseHome/index.htm 概率和统计 (Probability and Statistics):概率论和统计的入门教科书很多，我目前也没有特别的推荐。我在这里想介绍的是一本关于多元统计的基础教科书： Applied Multivariate Statistical Analysis (5th Ed.) by Richard A. Johnson and Dean W. Wichern 这本书是我在刚接触向量统计的时候用于学习的，我在香港时做研究的基础就是从此打下了。实验室的一些同学也借用这本书学习向量统计。这本书没有特别追求数学上的深度，而是以通俗易懂的方式讲述主要的基本概念，读起来很舒服，内容也很实用。对于Linear regression, factor analysis, principal component analysis (PCA), and canonical component analysis (CCA)这些Learning中的基本方法也展开了初步的论述。之后就可以进一步深入学习贝叶斯统计和Graphical models。一本理想的书是 Introduction to Graphical Models (draft version). by M. Jordan and C. Bishop. 我不知道这本书是不是已经出版了（不要和Learning in Graphical Models混淆，那是个论文集，不适合初学）。这本书从基本的贝叶斯统计模型出发一直深入到复杂的统计网络的估计和推断，深入浅出，statistical learning的许多重要方面都在此书有清楚论述和详细讲解。MIT内部可以access，至于外面，好像也是有电子版的。 分析 (Analysis)：我想大家基本都在大学就学过微积分或者数学分析，深度和广度则随各个学校而异了。这个领域是很多学科的基础，值得推荐的教科书莫过于 Principles of Mathematical Analysis, by Walter Rudin 有点老，但是绝对经典，深入透彻。缺点就是比较艰深——这是Rudin的书的一贯风格，适合于有一定基础后回头去看。在分析这个方向，接下来就是泛函分析 (Functional Analysis)。 Introductory Functional Analysis with Applications, by Erwin Kreyszig. 适合作为泛函的基础教材，容易切入而不失全面。我特别喜欢它对于谱论和算子理论的特别关注，这对于做learning的研究是特别重要的。Rudin也有一本关于functional analysis的书，那本书在数学上可能更为深刻，但是不易于上手，所讲内容和learning的切合度不如此书。在分析这个方向，还有一个重要的学科是测度理论 (Measure theory)，但是我看过的书里面目前还没有感觉有特别值得介绍的。 拓扑 (Topology)：在我读过的基本拓扑书各有特色，但是综合而言，我最推崇： Topology (2nd Ed.) by James Munkres 这本书是Munkres教授长期执教MIT拓扑课的心血所凝。对于一般拓扑学 (General topology)有全面介绍，而对于代数拓扑 (Algebraic topology)也有适度的探讨。此书不需要特别的数学知识就可以开始学习，由浅入深，从最基本的集合论概念（很多书不屑讲这个）到Nagata-Smirnov Theorem和Tychonoff theorem等较深的定理（很多书避开了这个）都覆盖了。讲述方式思想性很强，对于很多定理，除了给出证明过程和引导你思考其背后的原理脉络，很多令人赞叹的亮点——我常读得忘却饥饿，不愿释手。很多习题很有水平。 流形理论 (Manifold theory)：对于拓扑和分析有一定把握时，方可开始学习流形理论，否则所学只能流于浮浅。我所使用的书是 Introduction to Smooth Manifolds. by John M. Lee 虽然书名有introduction这个单词，但是实际上此书涉入很深，除了讲授了基本的manifold, tangent space, bundle, sub-manifold等，还探讨了诸如纲理论 (Category theory)，德拉姆上同调 (De Rham cohomology)和积分流形等一些比较高级的专题。对于李群和李代数也有相当多的讨论。行文通俗而又不失严谨，不过对某些记号方式需要熟悉一下。虽然李群论是建基于平滑流形的概念之上，不过，也可能从矩阵出发直接学习李群和李代数——这种方法对于急需使用李群论解决问题的朋友可能更加实用。而且，对于一个问题从不同角度看待也利于加深理解。下面一本书就是这个方向的典范： Lie Groups, Lie Algebras, and Representations: An Elementary Introduction. by Brian C. Hall 此书从开始即从矩阵切入，从代数而非几何角度引入矩阵李群的概念。并通过定义运算的方式建立。]]></content>
+      <categories>
+        <category>转载</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[数学相关整理]]></title>
+    <url>%2F2018%2F04%2F30%2FMath-Links%2F</url>
+    <content type="text"><![CDATA[说明 这篇文章整合了一些收集到的数学相关文章。 个人的文章 林达华-在数学的海洋中飘荡 林达华先生解说数学体系。 林达华的数学书单 林达华先生的数学书单，原地址消失了，所以转载了过来。 知乎的问答 大学数学系学什么？ 高中学业类 怎样提高高中数学成绩？有哪些较好的方法？ 大狮的回答 院系的课程介绍/教材索引 复旦大学数学系课程介绍 清华大学数学系课程介绍 国外数学教材索引]]></content>
+      <categories>
+        <category>整理</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Pocket笔记总结/001]]></title>
+    <url>%2F2018%2F04%2F30%2FPocket-Notes-1%2F</url>
+    <content type="text"><![CDATA[说明 一些在pocket上存储的文章的笔记。一般来说每篇都包含20篇文章的笔记。如果没看到20篇笔记说明我还没更新完。]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>Pocket笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World-由自动生成文件补充而来的写作笔记]]></title>
+    <url>%2F2018%2F04%2F29%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[说明直接引用了一些来自Hexo官方文档的东西。包含一些Markdown语法的笔记。这份笔记主要内容为博文的写作方法。 Hexo的文档创建一篇新的博文12$ hexo new [layout] &lt;title&gt;\\这个命令可以用来创建一篇新文章。[layout]用来定义布局，&lt;title&gt;用来定义标题。 Hexo的布局Hexo 有三种默认布局：post（博文）、page（页面） 和 draft（草稿），它们分别对应不同的路径，page是直接储存在source下的。post和draft对应不同的子文件夹。自定义的其他布局和post储存在同一文件夹。 Post类似本页面。 Page类似About（关于我）页面。参照：关于我 Draft不会公开的部分。使用1$ hexo publish [layout] &lt;title&gt; 可以将它公开（移入Post这一类别）。在执行时加上 –draft 参数，或是把render_drafts参数设为true 可以预览草稿。 新文章格式的设定Front-matter 是文件最上方以 — 分隔的区域，用于指定个别文件的变量。 Hexo官方文档Front-matter 参数 描述 默认值 layout 布局 title 标题 date 建立日期 文件建立日期 updated 更新日期 文件更新日期 comments 开启文章的评论功能 true tags 标签（不适用于分页） categories 分类（不适用于分页） permalink 覆盖文章网址 分类和标签 类别 区别 分类 不能同时在同级的分类下存在。 标签 可以同时存在多个标签。 Hexo生成文件名的设定可以靠改变new_post_name来变更默认的文件名。 变量 描述 :title 标题（小写，空格将会被替换为短杠） :year 建立的年份，比如， 2015 :month 建立的月份（有前导零），比如， 04 :i_month 建立的月份（无前导零），比如， 4 :day 建立的日期（有前导零），比如， 07 :i_day 建立的日期（无前导零），比如， 7 模板的使用在新建文章时，Hexo 会根据scaffolds文件夹内相对应的文件来建立文件。1$ hexo new photo "My Gallery" 此处的photo就是作为模板的文件。 变量 描述 layout 布局 title 标题 date 文件建立日期 标签（插件）的使用123&#123;% blockquote [author[, source]] [link] [source_link_title] %&#125;content&#123;% endblockquote %&#125; author=作者，source=来源，link=来源的链接，source_link_title=超链接的标题。 运行服务1$ hexo server 更多信息: 服务器 生成静态文件1$ hexo generate 更多信息: 生成 部署网站1$ hexo deploy 更多信息: 部署 Markdown语法笔记超链接1[真空农场](https://spher1calfowl.github.io/) 例子：真空农场 字体格式1234*斜体* **粗体*****加粗斜体***~~删除线~~ 例子：斜体粗体加粗斜体删除线 标题格式123456# 一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题 例子：参照这份文章。 无序列表123* 无序列表项1+ 无序列表项2- 无序列表项3 例子： 无序列表项1 无序列表项2 无序列表项3（有序列表直接写即可） 图片插入12![](/images/insert_image.jpg)\\插入图片。最好不要放在本地。（因为放不下） 例子： 表格12345| 表头1|表头2|表头3|表头4||-| :- | :-: | -: ||默认|左对齐|居中|右对齐||默认|左对齐|居中|右对齐||默认|左对齐|居中|右对齐| 例子： 表头1 表头2 表头3 表头4 默认左对齐 左对齐 居中 右对齐 默认左对齐 左对齐 居中 右对齐 默认左对齐 左对齐 居中 右对齐 分割线123___---*** *生成的分割线是相同的。这里除去了重复项。 参考文件[1]Hexo官方文档[2]Markdown官方文档[3]用Hexo写出第一篇博客-KevinPu]]></content>
+      <categories>
+        <category>博客管理笔记</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+</search>
