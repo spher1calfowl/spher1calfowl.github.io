@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[关于阿斯伯格症候群的自我诊断]]></title>
+    <url>%2F2018%2F05%2F11%2FAS-Report%2F</url>
+    <content type="text"><![CDATA[说明 含有大量的个人信息等我不想公开的内容。加密了。 Plus： 内文也做了模糊处理。既然是静态网页当然很容易破解。……如果你看到了这个的话，恭喜……？你的使用搜索引擎的能力还算不错呢，虽然你的道德配不上这份能力。]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[读书清单-读完的书-索引]]></title>
     <url>%2F2018%2F05%2F01%2FRead-List%2F</url>
     <content type="text"><![CDATA[说明 给读完的书的笔记做一个索引。未读的书的索引 还没开始写。]]></content>
@@ -19,9 +24,9 @@
         <category>博客管理笔记</category>
       </categories>
       <tags>
+        <tag>数学</tag>
         <tag>Markdown</tag>
         <tag>MathJax</tag>
-        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
