@@ -34,9 +34,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[读书清单-读完的书-索引]]></title>
+    <title><![CDATA[读书清单-读完/正在读的书-索引]]></title>
     <url>%2F2018%2F05%2F01%2FRead-List%2F</url>
-    <content type="text"><![CDATA[说明 给读完的书的笔记做一个索引。未读的书的索引 还没开始写。]]></content>
+    <content type="text"><![CDATA[说明 给读完/正在读的书的笔记做一个索引。未读的书的索引 Web安全深度剖析-张炳帅]]></content>
       <categories>
         <category>学习笔记</category>
       </categories>
@@ -52,9 +52,9 @@
         <category>博客管理笔记</category>
       </categories>
       <tags>
-        <tag>数学</tag>
         <tag>Markdown</tag>
         <tag>MathJax</tag>
+        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
