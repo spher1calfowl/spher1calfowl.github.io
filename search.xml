@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[《Web安全深度剖析》读书笔记]]></title>
     <url>%2F2018%2F05%2F12%2FThe-Note-of-Web%E5%AE%89%E5%85%A8%E6%B7%B1%E5%BA%A6%E5%89%96%E6%9E%90%2F</url>
-    <content type="text"><![CDATA[说明 Web安全深度剖析的读书笔记。进度：2.2 信息类别 名字 书名 Web安全深度剖析 作者 张炳帅 出版社 电子工业出版社 出版年 2015-4 页数 360 定价 59.00元 装帧 平装 丛书 安全技术大系 ISBN 9787121255816]]></content>
+    <content type="text"><![CDATA[说明 Web安全深度剖析的读书笔记。进度：2.2 信息类别 名字 书名 Web安全深度剖析 作者 张炳帅 出版社 电子工业出版社 出版年 2015-4 页数 360 定价 59.00元 装帧 平装 丛书 安全技术大系 ISBN 9787121255816 *更新中]]></content>
       <categories>
         <category>读书笔记</category>
       </categories>
@@ -52,9 +52,9 @@
         <category>博客管理笔记</category>
       </categories>
       <tags>
-        <tag>数学</tag>
         <tag>Markdown</tag>
         <tag>MathJax</tag>
+        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
