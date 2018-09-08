@@ -114,26 +114,6 @@
     
     
   <url>
-    <loc>https://spher1calfowl.github.io/2018/04/30/Pocket-Notes-1/</loc>
-    <lastmod>2018-05-11T15:03:35.759Z</lastmod>
-    <data>
-        <display>
-        <title>Pocket笔记总结/001</title>
-        <pubTime>2018-04-30T11:17:41.000Z</pubTime>
-        
-        <tag>Pocket笔记</tag>
-         
-         
-           
-             
-              <breadCrumb title="学习笔记" url="https://spher1calfowl.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://spher1calfowl.github.io/2018/05/01/Markdown-MathJax/</loc>
     <lastmod>2018-05-01T05:41:03.407Z</lastmod>
     <data>
@@ -171,30 +151,6 @@
            
              
               <breadCrumb title="转载" url="https://spher1calfowl.github.io/categories/%E8%BD%AC%E8%BD%BD/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://spher1calfowl.github.io/2018/05/01/OJ-Making/</loc>
-    <lastmod>2018-04-30T18:17:00.211Z</lastmod>
-    <data>
-        <display>
-        <title>关于搭OJ平台的工作报告</title>
-        <pubTime>2018-04-30T17:06:30.000Z</pubTime>
-        
-        <tag>OJ平台</tag>
-         
-        <tag>网页前端</tag>
-         
-        <tag>服务器后端</tag>
-         
-         
-           
-             
-              <breadCrumb title="学习笔记" url="https://spher1calfowl.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
           
         </display>
     </data>

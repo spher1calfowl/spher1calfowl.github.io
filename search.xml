@@ -72,19 +72,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[关于搭OJ平台的工作报告]]></title>
-    <url>%2F2018%2F05%2F01%2FOJ-Making%2F</url>
-    <content type="text"><![CDATA[说明 只是个尝试而已。成功与否还不清楚。记录了整个平台的搭建过程（暂未完成）。 参考文件两周打造自己的Online Judge：LuoguLite #0 - 目录 #1 基础架构 #2 数据模型 #3 前端框架 #4 从控制器到前端 #5 前端上的 Routing &amp;&amp; 前后端数据传递 #6 数据的增改 #7 综合案例 阅读进度#0 读完 操作进度#0 未操作 建站笔记没操作能有什么笔记啊 可能会用到的技术栈： 服务器后端：php / Symfony3 / MySQL 网页前端：JavaScript / Node.js / Vue.js / Semantic UI]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>OJ平台</tag>
-        <tag>网页前端</tag>
-        <tag>服务器后端</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[物理相关整理]]></title>
     <url>%2F2018%2F04%2F30%2FPhysics-Links%2F</url>
     <content type="text"><![CDATA[说明 这篇文章整合了一些收集到的物理相关文章。 个人的文章 Gerard ‘t Hooft-如何成为一名好的理论物理学家（新版） 注意：使用语言为英语。诺贝尔物理学奖得主Gerard ‘t Hooft先生编写的网页。强调了从网络获取知识。 如何成为一名好的理论物理学家（中文版） 翻译：马红孺 先生 校对&amp;排版：周旭 先生 知乎的问答高中学业类院系的课程介绍/教材索引]]></content>
@@ -115,17 +102,6 @@
       </categories>
       <tags>
         <tag>数学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Pocket笔记总结/001]]></title>
-    <url>%2F2018%2F04%2F30%2FPocket-Notes-1%2F</url>
-    <content type="text"><![CDATA[说明 一些在pocket上存储的文章的笔记。一般来说每篇都包含20篇文章的笔记。如果没看到20篇笔记说明我还没更新完。 还没开始写。]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>Pocket笔记</tag>
       </tags>
   </entry>
 </search>
